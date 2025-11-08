@@ -40,7 +40,7 @@ a{
     padding: 0 20px;
 }
 
-.large{
+.descripcion{
     font-size: 1.25rem;
 }
 
@@ -119,4 +119,19 @@ a{
 
 #navbar ul li a:hover{
     color: #B59EF0;
+}
+
+/*ShowCase*/
+
+#showCase{
+    padding: 80px 0;
+}
+
+.showCaseRow{
+    display: flex;
+    padding: 150px 0;
+}
+
+.showCaseRowTitulo p.descripcion{
+    padding-bottom: 15px;
 }
