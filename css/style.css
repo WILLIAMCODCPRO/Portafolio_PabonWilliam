@@ -135,3 +135,33 @@ a{
 .showCaseRowTitulo p.descripcion{
     padding-bottom: 15px;
 }
+
+.showCaseRowImg img{
+    width: 50vh;
+}
+
+/*Portafolio*/
+
+#miPortafolio{
+    padding: 80px 0;
+    text-align: center;
+}
+
+#portafolio p{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.portafolio-row{
+    display: flex;
+}
+
+.portafolio-row img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
