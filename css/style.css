@@ -31,3 +31,47 @@ p{
 a{
     text-decoration: none;
 }
+
+/*Estilos Clases*/
+
+.contenedor{
+    margin: auto;max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large{
+    font-size: 1.25rem;
+}
+
+.textOtroColor{
+    color: #A372C3;
+}
+
+.display1{
+    font-size: 4rem;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+} 
+
+.btn-round{
+    border-radius: 20px;
+}
+
+.btn-dark{
+    background: #A372C3;
+    border: 1px solid #A372C3;
+    color: #fff;
+}
+
+.btn-dark:hover{
+    background: #B59EF0;
+    color: #fff;
+}
