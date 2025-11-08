@@ -75,3 +75,10 @@ a{
     background: #B59EF0;
     color: #fff;
 }
+
+/*Header*/
+
+#mainHeader{
+    background: radial-gradient(at 10% 10px, #A372C3, #fff, #fff );
+    height: 100vh;
+}
