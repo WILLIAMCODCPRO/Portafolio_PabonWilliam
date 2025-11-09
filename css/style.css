@@ -164,4 +164,17 @@ a{
     border-radius: 20px;
 }
 
+/*Sobre Mi*/
 
+#sobreMi{
+    padding: 80px 0;
+    text-align: center;
+}
+
+#sobreMi h2{
+    padding-bottom: 50px;
+}
+
+#sobreMi p{
+    padding-bottom: 20px;
+}
