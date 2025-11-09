@@ -154,14 +154,19 @@ a{
     padding-bottom: 50px;
 }
 
-.portafolio-row{
+.portafolio-row {
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
 }
 
-.portafolio-row img{
-    width: 100%;
-    padding: 10px;
+.portafolio-row img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover; 
     border-radius: 20px;
+   
 }
 
 /*Sobre Mi*/
@@ -186,3 +191,63 @@ a{
     padding: 30px;
 }
 
+/* Responsive Design */
+
+
+@media (max-width: 992px) {
+    .display1 { font-size: 3rem; }
+    #navbar ul li a { padding: 8px 15px; }
+}
+
+
+@media (max-width: 768px) {
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    .display1 { font-size: 2.5rem; }
+
+    #navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 0;
+    }
+
+    #navbar ul li a {
+        padding: 12px;
+        width: 100%;
+    }
+
+    .showCaseRow {
+        flex-direction: column;
+        padding: 60px 0;
+    }
+
+    .showCaseRowTitulo {
+        text-align: center;
+    }
+
+
+    .showCaseRow img {
+        display: none;
+    }
+
+    #miPortafolio p {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.3rem; }
+    p { font-size: 0.95rem; }
+
+    .btn {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+}
